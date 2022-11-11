@@ -1,0 +1,76 @@
+.bg-page {
+  background-image: url(../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.top {
+  margin: 30px 0;
+  justify-content: space-around;
+}
+.top .img {
+  position: relative;
+  width: 200px;
+}
+.top .img img {
+  width: 100%;
+}
+.top .img .coatting {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(218, 150, 26, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+.top .img .coatting .name {
+  color: blue;
+  font-size: 20px;
+}
+.top .img .coatting .decs {
+  color: white;
+  font-size: 13px;
+}
+
+.box-glasses {
+  position: absolute;
+  width: 130px;
+  top: 50px;
+  left: 35px;
+}
+
+.img-glasses {
+  width: 100%;
+}
+
+.bottom {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: white;
+}
+.bottom .glasses_button {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom .glasses_button .glass {
+  margin-right: 20px;
+  width: 150px;
+  height: 120px;
+}
+.bottom .glasses_button .glass img {
+  object-fit: cover;
+  width: 100%;
+  height: 50%;
+  border: 1px solid #000;
+}
